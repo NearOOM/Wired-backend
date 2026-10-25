@@ -157,3 +157,12 @@ vite.config.ts.timestamp-*
 data/
 storage/
 uploads/
+
+# JUST EXCLUDE
+.env
+msg.db
+msg.db-wal
+msg.db-shm
+users.db
+users.db-wal
+users.db-shm
