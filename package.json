@@ -1,0 +1,21 @@
+{
+  "name": "wired-backend",
+  "version": "1.0.0",
+  "description": "A Backend server for wired chat app.",
+  "keywords": [
+    "wired",
+    "wired-backend"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "NearOOM",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
